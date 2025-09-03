@@ -1,3 +1,7 @@
-body{
-  background-color:blue;
+body {
+  background-color: blue;
+  max-width: 1200px;    /* Tamaño máximo horizontal */
+  max-height: 800px;    /* Tamaño máximo vertical */
+  margin: 0 auto;       /* Centra el contenido si el tamaño máximo es menor que el viewport */
+  overflow: auto;       /* Agrega scroll si se excede el tamaño */
 }
